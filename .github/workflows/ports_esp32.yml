@@ -1,4 +1,4 @@
-name: esp32 port
+name: esp32s3 port
 
 on:
   push:
@@ -32,5 +32,6 @@ jobs:
         # Artifact name
         name: artifact # optional, default is artifact
         # A file, directory or wildcard pattern that describes what to upload
-        path: /home/runner/work/micropython-1/micropython-1/ports/esp32/build-ESP32_GENERIC_S3
+        path: /home/runner/work/micropython-1/micropython-1/ports/esp32/build-ESP32_GENERIC_S3/firmware.bin
         # The desired behavior if no files are found using the provided path.
+        
